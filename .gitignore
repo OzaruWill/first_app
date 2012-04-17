@@ -12,4 +12,15 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
-/tmp
+/tmp/**/*
+tmp/*
+
+
+
+# Ignore other unneeded files.
+doc/api
+doc/app
+*.swp
+*~
+.project
+.DS_Store
